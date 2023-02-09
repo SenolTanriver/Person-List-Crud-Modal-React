@@ -1,0 +1,13 @@
+/* Common xs1, xs2 mobil*/
+/* Common sm1, sm2 tablet */
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Footer.css.map */

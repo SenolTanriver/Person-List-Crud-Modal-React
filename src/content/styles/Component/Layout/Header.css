@@ -1,0 +1,13 @@
+/* Common xs1, xs2 mobil*/
+/* Common sm1, sm2 tablet */
+/* Common  md, lg, xl, xxl desktop*/
+header {
+  padding: 16px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  gap: 16px;
+}/*# sourceMappingURL=Header.css.map */

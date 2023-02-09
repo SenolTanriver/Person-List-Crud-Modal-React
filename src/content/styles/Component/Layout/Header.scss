@@ -1,0 +1,25 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 mobil*/
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+}
+
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: #{$mq-md + "px"}) {
+}
+
+header {
+  padding: 16px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  nav ul {
+    display: flex;
+    gap: 16px;
+  }
+}
